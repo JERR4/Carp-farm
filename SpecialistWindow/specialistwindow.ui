@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SpecialistWindow</class>
+ <widget class="QDialog" name="SpecialistWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>399</width>
+    <height>418</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(255, 254, 178);</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>21</y>
+     <width>361</width>
+     <height>373</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="7" column="0">
+     <widget class="QPushButton" name="ponds">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Просмотр прудов</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 254, 178);
+color: green;
+font-size: 30px</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Открыто в режиме специалиста&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;по уходу за рыбой и водоёмом&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="nomenclature_in_stock">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Просмотр номенклатуры</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QPushButton" name="feeding">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Кормление</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QPushButton" name="logout">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Выйти</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="carp_in_pond">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Карп в пруду</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="carp">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Карп</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="last_feeding">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Просмотр последнего кормления</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

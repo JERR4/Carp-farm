@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ManagerWindow</class>
+ <widget class="QDialog" name="ManagerWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>431</width>
+    <height>503</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(255, 254, 178);</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>30</y>
+     <width>371</width>
+     <height>457</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QPushButton" name="nomenclature">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Номенклатура</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QPushButton" name="counterparty">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Контрагент</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QPushButton" name="carps">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Просмотр карпов</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QPushButton" name="sale">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Продажа</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QPushButton" name="carpinpond">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Просмотр карпов в пруду</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QPushButton" name="logout">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Выйти</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QPushButton" name="purchase">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Покупка</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">background-color:rgb(255, 254, 178);
+color: green;
+font-size: 30px</string>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;Открыто в режиме менеджера&lt;/span&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:24pt;&quot;&gt;по закупкам и продажам&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QPushButton" name="ponds">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Просмотр прудов</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QPushButton" name="custominfo">
+      <property name="styleSheet">
+       <string notr="true">color: black;
+background-color: lightgreen;
+font-size:20px</string>
+      </property>
+      <property name="text">
+       <string>Просмотр информации о покупателях</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
